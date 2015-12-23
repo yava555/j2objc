@@ -1,7 +1,3 @@
 test:
   override:
     - make dist && make test
-
-machine:
-  xcode:
-    version: "7.1"
